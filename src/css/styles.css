@@ -2,7 +2,9 @@ body{
 	margin:0;
 	overflow:hidden;
 }
-
+div#zone_dessin {
+    margin-top: -82px;
+}
 /* ******* Stylisation du CONTENT ******* */
 .content{
     	background-color: rgba(0, 0, 0, 0.5);

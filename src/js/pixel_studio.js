@@ -9,7 +9,7 @@ var pixel_studio = {
 
 		// canvas
 		
-		this.canvas.init('zone_dessin', window.innerWidth, window.innerHeight  - 5, 64, new Color('white', [255, 255, 255]));
+		this.canvas.init('zone_dessin', window.innerWidth - 200, window.innerHeight  - 350, 154, new Color('white', [255, 255, 255]));
 
 
 		// couleurs de la palette
