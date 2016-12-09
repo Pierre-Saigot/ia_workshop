@@ -3,7 +3,7 @@
 (function(){
 
 
-	
+	console.log('toto');
 
-	
+
 });
