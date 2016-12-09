@@ -1,9 +1,8 @@
 'use strict';
 
-(function(){
+(function () {
+   	var set = mnist.set(20, 5);
+	var trainingSet = set.training;
 
-
-	console.log('toto');
-
-
-});
+	console.log(trainingSet);
+}());
