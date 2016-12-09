@@ -9,7 +9,16 @@
 <body>
  	<div class="content">
  		<h2>IA</h2>
- 		<canvas id="mycanvas"></canvas>
+ 		<div id="zone_dessin"></div>
+
+			<div id="palette">
+				<ul id="tools">
+					<li></li>
+				</ul>
+				<ul id="colors">
+					<li></li>
+				</ul>
+			</div>
 	 	<div class="inputchiffre">
 			<h2 id="number">8</h2>
 	 	</div>
@@ -22,7 +31,21 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/synaptic/1.0.8/synaptic.js"></script>
 	<script src="bower_components/mnist/dist/mnist.js"></script>
+	<script src="src/js/pixel_studio.js"></script>
+	<script src="src/js/color.class.js"></script>
+	<script src="src/js/tool.class.js"></script>
+	<script src="src/js/eraser.class.js"></script>
+	<script src="src/js/pencil.class.js"></script>
+	<script src="src/js/palette_color.js"></script>
+	<script src="src/js/palette_tool.js"></script>
+	<script src="src/js/canvas.js"></script>
+	<script src="src/js/data.js"></script>
 	<script src="src/js/main.js"></script>
 	<script src="src/js/script.js"></script>
+	<script>
+		$(function(){
+			pixel_studio.init();
+		});
+	</script>
 </body>
 </html>
