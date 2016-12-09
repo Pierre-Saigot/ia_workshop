@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	overflow:hidden;
+}
+
+/* ******* Stylisation du CONTENT ******* */
+.content{
+    	background-color: rgba(0, 0, 0, 0.5);
+    	box-shadow: 2px 2px 7px #000000;
+    	border: 1px solid;
+    	border-color: rgba(0, 0, 0, 0.2);
+    	display: block;
+    	width:85%;
+    	padding:1em;
+    	margin:2em auto;
+}
+.content h2{
+	color:#efefef;
+	text-align: center;
+	font-weight: 200;
+	margin-bottom:1.5em;
+}
+.inputchiffre{
+	border-top:1px solid white;
+}
+.input-field .prefix {
+	color: #FFF;
+	bottom: 0.8em;
+}
+.input-field .prefix ~ input{
+	width:calc(60% - 3rem);
+}
+.input-field .prefix.active {
+	color:#FFF!important;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]){
+	border-bottom: 1px solid #FFF;
+    	box-shadow: 0 1px 0 0 #FFF;
+}
+input[type=text]:focus:not([readonly]) + label, input[type=password]:focus:not([readonly]) + label{
+	color:#FFF!important;
+}
